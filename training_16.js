@@ -1,4 +1,4 @@
-let studentList=["김혜윤","박지성","김도영","이동혁","abc","문de"]
+let studentList=["김혜윤","박지성","김도영","이동혁","abc"]
 
 
 // .filter()메서드
@@ -8,7 +8,6 @@ const kimStudents = studentList.filter(function(student){
 console.log(kimStudents);
 
 // .filter()메서드+ 나머지 값을 가져오는 % 연산
-//이거 이해 못함
 const oddStudents = studentList.filter(function(student,index){
   return index % 2 === 0;
 });
